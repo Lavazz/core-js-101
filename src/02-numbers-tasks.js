@@ -19,8 +19,8 @@
  *   5, 10 => 50
  *   5, 5  => 25
  */
-function getRectangleArea(/* width, height */) {
-  throw new Error('Not implemented');
+function getRectangleArea(width, height) {
+  return width * height;
 }
 
 
@@ -53,6 +53,7 @@ function getCircleCircumference(/* radius */) {
  */
 function getAverage(/* value1, value2 */) {
   throw new Error('Not implemented');
+  // return ((value1 + value2) / 2).toFixed(0);
 }
 
 /**
